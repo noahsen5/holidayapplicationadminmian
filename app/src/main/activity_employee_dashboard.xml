@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Employee Dashboard Layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#083c5d">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/employeeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Dashboard"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- View Details Button -->
+    <Button
+        android:id="@+id/btnViewDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/employeeTitle"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1d2731"
+        android:text="View Details"
+        android:textSize="18sp"/>
+
+    <!-- Edit Profile Button -->
+    <Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnViewDetails"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1d2731"
+        android:text="Edit Profile"
+        android:textSize="18sp"/>
+
+    <!-- Request Holiday Button -->
+    <Button
+        android:id="@+id/btnRequestHoliday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEditProfile"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1d2731"
+        android:text="Request Holiday"
+        android:textSize="18sp"/>
+
+    <!-- Notification Preferences Button -->
+    <Button
+        android:id="@+id/btnNotificationPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRequestHoliday"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1d2731"
+        android:text="Notification Preferences"
+        android:textSize="18sp"/>
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogoutEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1d2731"
+        android:text="Logout"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

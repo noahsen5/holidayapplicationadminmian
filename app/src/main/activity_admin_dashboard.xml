@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Admin Dashboard Layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#083c5d">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/adminTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Add Employee Button -->
+    <Button
+        android:id="@+id/btnAddEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adminTitle"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1d2731"
+        android:text="Add Employee"
+        android:textSize="18sp"/>
+
+    <!-- Edit Employee Button -->
+    <Button
+        android:id="@+id/btnEditEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddEmployee"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1d2731"
+        android:text="Edit Employee"
+        android:textSize="18sp"/>
+
+    <!-- Delete Employee Button -->
+    <Button
+        android:id="@+id/btnDeleteEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEditEmployee"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1d2731"
+        android:text="Delete Employee"
+        android:textSize="18sp"/>
+
+    <!-- Approve Holidays Button -->
+    <Button
+        android:id="@+id/btnApproveHolidays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDeleteEmployee"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1d2731"
+        android:text="Approve Holidays"
+        android:textSize="18sp"/>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogoutAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1d2731"
+        android:text="Logout"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
