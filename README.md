@@ -1,1 +1,1 @@
-to get to the main code go to app
+to get to the main code go to app/src/main
